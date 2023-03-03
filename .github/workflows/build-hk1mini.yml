@@ -103,7 +103,7 @@ jobs:
         uses: actions/upload-artifact@main
         if: always()
         with:
-          name: OpenWrt_K2P_bin-${{ env.Date_and_RunNumber }}
+          name: OpenWrt_HK1-Mini_bin-${{ env.Date_and_RunNumber }}
           path: openwrt/bin
 
       - name: Remove packages
